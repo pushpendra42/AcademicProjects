@@ -1,0 +1,27 @@
+To compile and execute the program follow the below commans:
+
+Jacobi:
+1)
+gcc -o jserial jacobi_serial.c -lm -lpapi
+./jserial -c 0.001 -i 1 -n 2 -s 0
+
+
+2)
+gcc -o newtest iit_omp_jac.c -lm -lpapi
+./newtest
+
+QR:
+1) 
+./gen 256 > input
+./serial -file input
+
+2)
+./gen 256 > input
+set OMP_NUM_THREADS=4
+gcc qr_omp.c -o omp -lm -lpapi
+./omp -file input
+
+3)
+./gen 256 > input
+mpicc qr_mpi.cc -o mpi -lpapi -lm
+mpirun -np 2 ./mpi

@@ -1,0 +1,21 @@
+drop table customerTrip;
+drop table ticket;
+drop table ticketType;
+drop table payment;
+drop table customerTripStatus;
+drop table flightSeat;
+drop table seatClass;
+drop table flightInstance;
+drop table flightTrip;
+drop table flightTripStatus;
+drop table flightSchedule;
+drop table flight;
+drop table payMethod;
+drop table flightModel;
+drop table airport;
+drop table customer;
+drop table city;
+drop table country;
+drop table final;
+drop SEQUENCE book_id_seq
+

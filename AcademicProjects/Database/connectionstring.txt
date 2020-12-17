@@ -1,0 +1,9 @@
+host=localhost dbname=flight2019 user=postgres password=dbms2019
+
+
+https://www.janabank.com
+https://www.idfcfirstbank.com
+https://www.bandhanbank.com
+https://www.equitasbank.com
+https://www.aubank.in
+
